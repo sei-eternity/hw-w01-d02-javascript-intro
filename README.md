@@ -52,6 +52,9 @@ Result should be:
 ### Your solution here:
 console.log(firstWord + " " + secondWord + " " + thirdWord + " " + fourthWord);
 
+
+
+
 4.  Fill in the `console.log()`?
 ```js
 console.log()
@@ -64,6 +67,11 @@ const num2 = 10;
 ```
 
 ### Your solution here:
+console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`)
+
+
+
+
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
