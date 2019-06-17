@@ -81,7 +81,7 @@ console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`)
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`)
 ```
 
 ## Comparisons
@@ -99,17 +99,17 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) false
+b) true
+c) false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
-## Conditionals
+<!-- ## Conditionals
 Declare a variable equal to a number 0 to 100
 
 Write a conditional statement that...
@@ -122,12 +122,15 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 // your answer here
-```
+``` -->
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
-// your answer here
+let i = 0;
+while (i <= 100) { alert( i );
+  i++;
+}
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
