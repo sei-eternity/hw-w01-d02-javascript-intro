@@ -50,6 +50,8 @@ Result should be:
 ```
 
 ### Your solution here:
+console.log(firstWord + " " + secondWord + " " + thirdWord + " " + fourthWord);
+
 4.  Fill in the `console.log()`?
 ```js
 console.log()
