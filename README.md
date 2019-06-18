@@ -24,15 +24,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is ...bongos
 ```
 2.  What is `b`?
 ```
-b is ...
+b is ...true
 ```
 3.  What is `c`?
 ```
-c is ...
+c is ...1
 ```
 
 ## Concatenation
@@ -45,7 +45,8 @@ const thirdWord = "the";
 const fourthWord = "cheese";
 ```
 Result should be:
-```js
+var strings = [firstWord , secondWord , thirdWord ,fourthWord];
+```js console.log(strings );
 "Please squeeze the cheese"
 ```
 
@@ -64,39 +65,44 @@ const num2 = 10;
 ### Your solution here:
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
+var num3 = num2 + num1;
+console.log(num3);
+
 // your solution here
 ```
-6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
+6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence:
 
 >The sum of 5 and 10 is 15
 
 ```js
 console.log()
+console.log(num1 , num2 , num3);
+
 ```
 
 ## Comparisons
 By just looking at the following expressions, determine in your mind whether or not each will evaluate to true or false
 ```
 a) 999 > 999
-b) 999 === 999 
+b) 999 === 999
 c) 999 !== 999
 d) -5 >= -4
 e) 100 <= -100
-f) 20 + 5 < 5 
+f) 20 + 5 < 5
 g) 81 / 9 === 9
 h) 9 !== 8 + 1
 ```
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a)false
+b)true
+c)false
+d)false
+e)false
+f)false
+g)false
+h)false
 ```
 
 ## Conditionals
@@ -111,6 +117,19 @@ Write a conditional statement that...
 ### Your solution here:
 8.  Write your javascript solution below
 ```js
+var number = 15;
+var output = " ";
+
+ if(number % 3 === 0){
+  output += "“Fizz”";
+ }
+ if(number % 5 === 0){
+  output += "“Buzz”";
+ }
+
+}
+  console.log(output);
+
 // your answer here
 ```
 
