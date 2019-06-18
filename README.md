@@ -150,7 +150,7 @@ while (nm <= 100){
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
 
-unction m(n){
+function m(n){
 nm=0;
 
 while (nm <= n){
