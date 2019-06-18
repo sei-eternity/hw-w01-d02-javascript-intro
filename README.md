@@ -134,7 +134,13 @@ while (i <= 100) { alert( i );
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
-// your answer here
+let n = prompt("Enter a number: ")
+function runNum(n) {
+  for (let i = 0; i <= n; i++) {
+   return alert( i );
+  }
+}
+runNum();
 ```
 
 # Additional Resources
