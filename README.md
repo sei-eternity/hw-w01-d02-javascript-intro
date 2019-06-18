@@ -74,7 +74,7 @@ console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`)
 
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
+console.log(num3 = num1 + num2)
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
@@ -134,13 +134,13 @@ while (i <= 100) { alert( i );
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
-let n = prompt("Enter a number: ")
-function runNum(n) {
-  for (let i = 0; i <= n; i++) {
-   return alert( i );
-  }
-}
-runNum();
+// let n = prompt("Enter a number: ")
+// function runNum(n) {
+//   for (let i = 0; i <= n; i++) {
+//    return alert( i );
+//   }
+// }
+// runNum();
 ```
 
 # Additional Resources
